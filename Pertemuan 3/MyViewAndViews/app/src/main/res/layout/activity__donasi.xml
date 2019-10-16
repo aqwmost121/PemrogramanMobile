@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity_Donasi">
+
+    <ImageView
+        android:layout_width="166dp"
+        android:layout_height="163dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nama_anda"
+        android:layout_marginTop="@dimen/vertical_layout"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/alamat"
+        android:layout_marginTop="@dimen/vertical_layout"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/jumlah_donasi"
+        android:layout_marginTop="@dimen/vertical_layout"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Catatan"
+        android:layout_height="200dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donasi"/>
+</LinearLayout>
