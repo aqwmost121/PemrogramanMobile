@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SignUpApp</string>
+    <string name="daftar">Sign Up</string>
+    <string name="user">Username</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="content_text">Wes studio adlaah tempat untuk belajar pemrograman perangkat bergerak baik dengan Android, IOS, maupun Windows Phone. Tidak Perlu khawatir jika anda belum memiliki basic programing sebelumnya. Sebab disini anda daftarkan diri anda, minggu depan harga naik!</string>
+    <string name="sosmed">Sign Up with Social Media</string>
+
+</resources>
